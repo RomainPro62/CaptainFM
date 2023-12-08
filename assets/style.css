@@ -1,0 +1,56 @@
+body {
+    background-color: blue;
+}
+img {
+    width: 350px;
+}
+.div1 {
+    background-color: green;
+}
+.div2 {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+p {
+    background-color: red;
+    display: inline-block;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.vynile {
+    animation: turn 3.5s infinite linear;
+}
+@keyframes turn {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+    50% {
+        transform: rotate(180deg) scale(1.2);
+    }
+    100% {
+        transform: rotate(360deg) scale(1);
+    }
+}
+.captain{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.disque {
+    position: relative;
+    display: inline-block;
+    animation: turn 3.5s infinite linear;
+}
