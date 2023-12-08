@@ -53,4 +53,5 @@ ul {
     position: relative;
     display: inline-block;
     animation: turn 3.5s infinite linear;
+    justify-content: center;
 }
